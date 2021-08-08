@@ -1,0 +1,176 @@
+{
+  "free_measurement": [
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 1
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 2
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 3
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 4
+    },
+    {
+      "user_name": "de121",
+      "user_phone": "12112321312",
+      "id": 5
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 6
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "eded",
+      "id": 7
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 8
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 9
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 10
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 11
+    },
+    {
+      "user_name": "de121",
+      "user_phone": "12112321312",
+      "id": 12
+    },
+    {
+      "user_name": "de121",
+      "user_phone": "12112321312",
+      "id": 13
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 14
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 15
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 16
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 17
+    },
+    {
+      "user_name": "de121",
+      "user_phone": "12112321312",
+      "id": 18
+    }
+  ],
+  "call": [
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 1
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 2
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 3
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 4
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 5
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 6
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 7
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 8
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 9
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 10
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 11
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 12
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 13
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "id": 14
+    },
+    {
+      "user_name": "frfrr",
+      "user_phone": "12112321312",
+      "form": "1",
+      "width": "12",
+      "height": "21",
+      "type": "plastic",
+      "profile": "Теплое",
+      "id": 15
+    }
+  ]
+}
