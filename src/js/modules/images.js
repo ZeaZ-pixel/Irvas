@@ -1,19 +1,19 @@
 export default function images() {
-  const imgPopup = document.createElement('div'),
-  workSection = document.querySelector('.works'),
-  bigImage = document.createElement('img');
-
-  imgPopup.classList.add('popup');
-  workSection.append(imgPopup);
-
-  imgPopup.style.justifyContent = 'center';
-  imgPopup.style.alignItems = 'center';
-  imgPopup.style.display = 'none';
-
-  imgPopup.appendChild(bigImage);
-
+  const imgPopup = document.createElement('div');
+  const workSection = document.querySelector('.works');
+  const bigImage = document.createElement('img');
+  
   workSection.addEventListener('click', (e) => {
     e.preventDefault();
+
+    imgPopup.classList.add('popup');
+    workSection.append(imgPopup);
+  
+    imgPopup.style.justifyContent = 'center';
+    imgPopup.style.alignItems = 'center';
+    imgPopup.style.display = 'none';
+  
+    imgPopup.appendChild(bigImage);
 
     if(e.target && e.target.classList.contains('preview')){
       imgPopup.style.display = 'flex';

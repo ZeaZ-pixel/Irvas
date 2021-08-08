@@ -1,4 +1,3 @@
-import { closeModal, openModal } from "./modals";
 import { postData } from "../service/service";
 import checkNum from "./checkNum";
 
@@ -39,7 +38,8 @@ export default function form(state){
             showThanksModal('.popup', message.failure);
           })
           .finally(() => {
-            closeModal('.popup_engineer');
+            document.querySelector('.popup_engineer').style.display = "none";
+            document.body.style.overflow = "";
             form.reset();
           });
       }else{
@@ -52,7 +52,8 @@ export default function form(state){
           showThanksModal('.popup_engineer', message.failure);
         })
         .finally(() => {
-          closeModal('.popup');
+          document.querySelector('.popup').style.display = "none";
+          document.body.style.overflow = "";
           form.reset();
         });
       }
@@ -63,10 +64,14 @@ export default function form(state){
 function showThanksModal (modalSelector, message){
   const modal = document.querySelector(modalSelector);
   const prevModalDialog = modal.querySelector('.popup_dialog');
-  prevModalDialog.classList.remove('show');
-  prevModalDialog.classList.add('hide');
 
-  openModal(modalSelector);                                               
+  modal.style.zIndex = "2000";
+
+  prevModalDialog.style.display = 'none';
+
+  modal.style.display = "block";
+
+  document.body.style.overflow = "hidden";                                              
 
   const thanksModal = document.createElement('div');
   thanksModal.classList.add('popup_dialog');
@@ -80,9 +85,9 @@ function showThanksModal (modalSelector, message){
   document.querySelector(modalSelector).append(thanksModal);
   setTimeout(() => {
     thanksModal.remove();
-    prevModalDialog.classList.add('show');
-    prevModalDialog.classList.remove('hide');
-    closeModal(modalSelector);
+    prevModalDialog.style.display = "block";
+    modal.style.display = "none";
+    document.body.style.overflow = "";
   }, 4000);
 }
 

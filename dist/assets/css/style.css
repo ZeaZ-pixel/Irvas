@@ -1804,14 +1804,6 @@ textarea:focus {
   }
 }
 
-.active{
-  display: block;
-}
-
-.hidden{
-  display: none;
-}
-
 .faded {
   animation: faded;
   animation-duration: 1.5s;
